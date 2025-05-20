@@ -1,0 +1,49 @@
+<style>
+    body {
+        text-align: center;
+        background: #fff5e6;
+        padding: 20px;
+    }
+    .tab {
+        padding: 10px 20px;
+        font-size: 20px;
+        background: #ffcc99;
+        border: none;
+        border-radius: 10px 10px 0 0;
+        margin: 0 5px;
+    }
+    .tab.active {
+        background: #ff9966;
+    }
+    .game {
+        display: none;
+        background: white;
+        padding: 20px;
+        border-radius: 0 10px 10px 10px;
+    }
+    .game.active {
+        display: block;
+    }
+    button {
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        background: #ffddcc;
+        border-radius: 10px;
+        border: none;
+    }
+    .choice {
+        font-size: 40px;
+        padding: 15px;
+    }
+    .result {
+        font-size: 24px;
+        min-height: 30px;
+        margin: 20px;
+    }
+    .score {
+        font-size: 22px;
+        color: #ff9966;
+        margin: 10px;
+    }
+</style>
