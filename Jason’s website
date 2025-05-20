@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>best game made by Jason!</title>
+
+</head>
+<body>
+    <h1>🌟 best game made by Jason 🌟</h1>
+
+    <button class="tab active" onclick="showGame('rockGame')">rock paper siccors game</button>
+    <button class="tab" onclick="showGame('guessGame')">guessing game</button>
+
+    <div id="rockGame" class="game active">
+        <div class="score">Wins: <span id="rpsWins">0</span> | Losses: <span id="rpsLosses">0</span> | Ties: <span id="rpsTies">0</span></div>
+        <button class="choice" onclick="playRPS('✊')">✊ Rock</button>
+        <button class="choice" onclick="playRPS('✋')">✋ Paper</button>
+        <button class="choice" onclick="playRPS('✌️')">✌️ Scissors</button>
+        <p id="rpsResult" class="result"></p>
+    </div>
+
+    <div id="guessGame" class="game">
+        <div class="score">Correct: <span id="correctGuesses">0</span> | Tries: <span id="totalGuesses">0</span></div>
+        <input type="number" id="guess" min="1" max="10" placeholder="1-10">
+        <button onclick="checkGuess()">Guess!</button>
+        <p id="guessResult" class="result"></p>
+    </div>
